@@ -10,6 +10,61 @@
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-    
+    <!-- right section -->
+   <div class="page">
+    <div class="background">s</div>
+    <div class="logo">
+        <img src="images/odin-lined.png" alt="logo">
+        <h1>Sign-up Form</h1>
+    </div>
+    <footer>Photo by <a href="#">Євгенія Височина</a> on <a href="#">Unsplash</a></footer>
+   </div>
+<!-- left section -->
+   <div class="form">
+    <div class="text">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+
+            Sign up now to get started.</p>
+            <p>You know you want to.</p>
+    </div>
+    <form action="#">
+        <div class="forminput">
+            <h3>Let's do this!</h3>
+            <div class="grid">
+            <div>
+                <label for="First-Name">FIRST NAME</label>
+                <input type="text" id="First-Name">
+                
+                <label for="Email">EMAIL</label>
+                <input type="Email" id="Email">
+                 
+                <label for="Password">PASSWORD</label>
+                <input type="Password" id="Password" pattern="(\d{5}([\-]\d{4})?)" required >
+                <p>*password don't match</p>
+            </div>
+
+            <div>
+                <label for="Last-Name">LAST NAME</label>
+                <input type="text" id="Last-Name">
+                 
+                <label for="Phone-Number">PHONE NUMBER</label>
+                <input type="phone-number" id="Phone-Number">
+                 
+                <label for="Confirm-Password">CONFIRM PASSWORD</label>
+                <input type="password" id="Confirm-Password" pattern="(\d{5}([\-]\d{4})?)" required>
+
+            </div>
+
+            </div>
+        </div>
+       
+    </form>
+    <div class="btn">
+        <button id="create">Creat Acount</button>
+    <p>Already have an account?<a href="#">Log in</a> </p>
+    </div>
+
+   </div>
+
 </body>
 </html>
